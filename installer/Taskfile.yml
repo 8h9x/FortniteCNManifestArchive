@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: "3"
+
+tasks:
+  default:
+    desc: Alias for go run
+    cmds:
+      - go run ./cmd/ripple
+    silent: true
